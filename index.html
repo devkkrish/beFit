@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BE FIT RAIPUR | Raipur's Premier Luxury Fitness & Athletic Club</title>
+  
+  <meta name="description" content="Welcome to Be Fit Raipur - KRC Tower, Mahadev Ghat Road. Experience 5,000+ sq. ft. of elite strength equipment, CrossFit turf, certified master trainers, and luxury recovery in Raipur, Chhattisgarh.">
+  <meta name="keywords" content="Be Fit Raipur, Gym in Raipur, Best gym Raipur, Gym Mahadev Ghat Road, KRC Tower Gym, CrossFit Raipur, Personal Trainer Raipur">
+  <meta name="author" content="Be Fit Raipur">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="BE FIT RAIPUR | Raipur's Premier Luxury Fitness Club">
+  <meta property="og:description" content="5000+ Sq. Ft. Luxury Floor, Biomechanical Equipment, Elite Trainers & CrossFit Zone at KRC Tower, Raipur.">
+  <meta property="og:type" content="website">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#eab308',
+              goldLight: '#fde047',
+              goldDark: '#ca8a04',
+              orange: '#f97316',
+              dark: '#08080a',
+              card: '#121217',
+              border: '#27272a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons & FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Luxury Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#08080a] text-zinc-100 selection:bg-amber-400 selection:text-black">
+
+  <!-- Glow Background Accents (Contained in overflow-hidden) -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none z-0 max-w-full">
+    <div class="glow-spot-gold -top-20 left-0"></div>
+    <div class="glow-spot-orange top-1/3 right-0"></div>
+    <div class="glow-spot-gold top-2/3 left-1/4"></div>
+  </div>
+
+  <!-- 1. VIP Announcement Banner (Luxury Obsidian & Gold) -->
+  <aside aria-label="Raipur VIP Pass Offer" class="relative z-50 bg-[#0a0a0f] border-b border-amber-500/20 text-zinc-300 py-2 sm:py-2.5 px-3 sm:px-4 text-xs sm:text-sm font-medium shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-3 text-center sm:text-left">
+      <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+        <span class="inline-flex items-center gap-1.5 bg-amber-400/10 border border-amber-400/40 text-amber-300 text-[10px] tracking-widest uppercase px-2.5 py-0.5 rounded-full font-extrabold">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping"></span>
+          LIMITED PASSES
+        </span>
+        <span class="text-zinc-200 text-xs sm:text-sm">🔥 1-Day VIP Trial Passes available for Raipur residents at KRC Tower!</span>
+      </div>
+      <button class="open-pass-modal text-amber-400 hover:text-amber-300 font-bold transition cursor-pointer flex items-center gap-1.5 text-xs uppercase tracking-wider">
+        <span>Claim Free Pass</span>
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- 2. Sticky Glassmorphism Header -->
+  <header class="sticky top-0 z-40 glass-nav transition duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group">
+        <div class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-black font-black text-lg sm:text-xl shadow-[0_0_20px_rgba(234,179,8,0.4)] group-hover:scale-105 transition">
+          <i class="fa-solid fa-bolt text-base sm:text-lg"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="text-xl sm:text-2xl font-black tracking-wider text-white">BE FIT</span>
+            <span class="bg-amber-400/20 text-amber-300 border border-amber-400/40 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">RAIPUR</span>
+          </div>
+          <p class="text-[9px] sm:text-[10px] text-zinc-400 font-medium tracking-widest uppercase">Luxury Athletic Club</p>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-zinc-300">
+        <a href="#about" class="hover:text-amber-400 transition">Club Overview</a>
+        <a href="#facilities" class="hover:text-amber-400 transition">Facilities</a>
+        <a href="#programs" class="hover:text-amber-400 transition">Programs</a>
+        <a href="#bmi" class="hover:text-amber-400 transition flex items-center gap-1">
+          <span>BMI Tool</span>
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        </a>
+        <a href="#schedule" class="hover:text-amber-400 transition">Schedule</a>
+        <a href="#plans" class="hover:text-amber-400 transition">Memberships</a>
+        <a href="#location" class="hover:text-amber-400 transition">Location</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="hidden sm:flex items-center gap-4">
+        <a href="tel:+917828888438" class="text-zinc-300 hover:text-white flex items-center gap-2 text-xs font-semibold px-3 py-2 rounded-lg border border-zinc-800 hover:border-zinc-700 bg-zinc-900/60 transition">
+          <i class="fa-solid fa-phone text-amber-400"></i>
+          <span>+91 78288 88438</span>
+        </a>
+        <button class="open-pass-modal btn-glow-gold bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black font-extrabold text-xs uppercase tracking-wider px-5 py-2.5 rounded-lg transition transform hover:-translate-y-0.5 shadow-lg shadow-amber-500/20">
+          Claim VIP Pass
+        </button>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" aria-label="Toggle mobile navigation menu" class="lg:hidden p-2 rounded-lg text-zinc-300 hover:text-white hover:bg-zinc-800 transition">
+        <i class="fa-solid fa-bars-staggered text-xl"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-zinc-800 bg-[#0d0d12]/95 backdrop-blur-xl px-5 py-6 transition">
+      <div class="flex flex-col gap-3.5 text-base font-medium">
+        <a href="#about" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Club Overview</a>
+        <a href="#facilities" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Facilities</a>
+        <a href="#programs" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Programs</a>
+        <a href="#bmi" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1 flex items-center justify-between">
+          <span>BMI Calculator</span>
+          <span class="text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded">Interactive</span>
+        </a>
+        <a href="#schedule" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Weekly Schedule</a>
+        <a href="#plans" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Memberships</a>
+        <a href="#location" class="mobile-nav-link text-zinc-200 hover:text-amber-400 py-1">Location & Hours</a>
+        <div class="pt-4 border-t border-zinc-800 flex flex-col gap-3">
+          <a href="tel:+917828888438" class="text-center py-2.5 rounded-lg border border-zinc-700 bg-zinc-900 text-sm font-semibold text-zinc-200">
+            <i class="fa-solid fa-phone text-amber-400 mr-2"></i> +91 78288 88438
+          </a>
+          <button class="open-pass-modal w-full py-3 rounded-lg bg-amber-400 text-black font-extrabold text-sm uppercase tracking-wider">
+            Claim 1-Day VIP Pass
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Hero Section (Ultra Premium Cinematic Experience) -->
+  <section class="relative min-h-[85vh] sm:min-h-[92vh] flex items-center justify-center pt-8 sm:pt-14 pb-12 sm:pb-20 overflow-hidden hero-cinematic-bg border-b border-zinc-800/80">
+    
+    <!-- Atmospheric lighting layers -->
+    <div class="absolute inset-0 bg-radial-gradient from-transparent via-[#060608]/50 to-[#060608] pointer-events-none"></div>
+
+    <!-- Floating Luxury Badges (Desktop) -->
+    <div class="hidden xl:block absolute left-10 top-1/3 animate-float-1 pointer-events-none z-20">
+      <div class="p-4 rounded-2xl glass-panel border border-amber-400/30 shadow-[0_20px_50px_rgba(0,0,0,0.8)] backdrop-blur-2xl flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-xl bg-amber-400/20 text-amber-400 flex items-center justify-center text-xl flex-shrink-0">
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div>
+          <span class="text-[10px] font-black text-amber-400 uppercase tracking-widest block">Raipur's Flagship</span>
+          <p class="text-sm font-black text-white">5,000+ Sq. Ft. Arena</p>
+          <span class="text-[10px] text-zinc-400">2 Complete Club Floors</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden xl:block absolute right-10 top-1/3 animate-float-2 pointer-events-none z-20">
+      <div class="p-4 rounded-2xl glass-panel border border-emerald-500/30 shadow-[0_20px_50px_rgba(0,0,0,0.8)] backdrop-blur-2xl flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl flex-shrink-0">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div>
+          <span class="text-[10px] font-black text-emerald-400 uppercase tracking-widest block">Top Rated Gym</span>
+          <p class="text-sm font-black text-white">4.8★ Google Reviews</p>
+          <span class="text-[10px] text-zinc-400">Trusted by 1200+ Locals</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      
+      <!-- Raipur Trust Badge -->
+      <div class="inline-flex items-center gap-2 px-3.5 sm:px-4 py-1.5 rounded-full border border-amber-400/30 bg-amber-400/10 text-amber-300 text-[11px] sm:text-xs md:text-sm font-semibold mb-6 sm:mb-8 backdrop-blur-md shadow-[0_0_20px_rgba(234,179,8,0.15)] max-w-full">
+        <span class="flex h-2 w-2 rounded-full bg-amber-400 animate-ping flex-shrink-0"></span>
+        <i class="fa-solid fa-crown text-amber-400 text-xs"></i>
+        <span class="truncate">Raipur's Premier Luxury Fitness & Athletic Club</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-white uppercase max-w-5xl mx-auto leading-tight sm:leading-[1.05] mb-4 sm:mb-6 drop-shadow-2xl px-1">
+        REDEFINE YOUR <span class="text-gradient-gold">STRENGTH</span> IN RAIPUR
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-sm sm:text-lg md:text-xl text-zinc-300 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed font-normal drop-shadow px-2">
+        Step into Raipur's elite 5,000+ sq. ft. multi-tier athletic sanctuary at KRC Tower. Experience world-class biomechanical equipment, certified master coaching, and an electric atmosphere designed for real transformations.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-2 sm:px-0">
+        <button class="open-pass-modal w-full sm:w-auto btn-glow-gold bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 hover:brightness-110 text-black font-black text-xs sm:text-sm uppercase tracking-wider px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl transition transform hover:-translate-y-1 shadow-2xl flex items-center justify-center gap-2.5">
+          <i class="fa-solid fa-ticket text-black text-sm"></i>
+          <span>Claim 1-Day VIP Pass (Free)</span>
+        </button>
+        <a href="#facilities" class="w-full sm:w-auto glass-panel hover:bg-zinc-800/80 text-white font-bold text-xs sm:text-sm px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl transition border border-zinc-700/80 flex items-center justify-center gap-2">
+          <span>Explore Facilities & Tour</span>
+          <i class="fa-solid fa-chevron-down text-xs text-amber-400"></i>
+        </a>
+      </div>
+
+      <!-- Athletic Highlights Feature Strip -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-[11px] sm:text-xs text-zinc-400 mb-8 sm:mb-10 max-w-4xl mx-auto px-2">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-zinc-900/60 border border-zinc-800"><i class="fa-solid fa-check-circle text-amber-400 text-[10px]"></i> 50+ Biomechanical Racks</span>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-zinc-900/60 border border-zinc-800"><i class="fa-solid fa-check-circle text-amber-400 text-[10px]"></i> Level 3 CrossFit Turf</span>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-zinc-900/60 border border-zinc-800"><i class="fa-solid fa-check-circle text-amber-400 text-[10px]"></i> Luxury Steam Lounge</span>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-zinc-900/60 border border-zinc-800"><i class="fa-solid fa-check-circle text-amber-400 text-[10px]"></i> 100% Women Safe Zone</span>
+      </div>
+
+      <!-- Location Pill Quick Tag -->
+      <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-xs sm:text-sm text-zinc-400 bg-zinc-950/80 border border-zinc-800/80 px-4 py-3 sm:px-5 sm:py-2.5 rounded-2xl shadow-xl backdrop-blur-md max-w-full">
+        <div class="flex items-center gap-1.5 text-zinc-300 text-center sm:text-left text-xs sm:text-sm">
+          <i class="fa-solid fa-location-dot text-amber-400 flex-shrink-0"></i>
+          <span>2nd & 3rd Floor, KRC Tower, Mahadev Ghat Rd, Changurabhata</span>
+        </div>
+        <span class="hidden sm:inline text-zinc-600">•</span>
+        <div class="flex items-center gap-1.5 text-emerald-400 text-xs">
+          <i class="fa-solid fa-clock text-[10px]"></i>
+          <span>Open Today: 5:30 AM – 10:30 PM</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. Real Stats Section (Interactive Counter) -->
+  <section id="stats-section" class="relative z-10 border-y border-zinc-800/80 bg-zinc-950/60 py-8 sm:py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6 text-center">
+        
+        <div class="p-3.5 sm:p-5 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 sm:border-0 sm:border-r border-zinc-800/60 sm:rounded-none">
+          <div class="text-2xl sm:text-4xl md:text-5xl font-black text-white stat-counter mb-0.5 sm:mb-1" data-target="5000" data-suffix="+">5000+</div>
+          <p class="text-[11px] sm:text-sm font-bold text-amber-400 uppercase tracking-wider">Sq. Ft. Luxury Floor</p>
+          <p class="text-[10px] sm:text-[11px] text-zinc-500 mt-0.5">2 Spacious Club Levels</p>
+        </div>
+
+        <div class="p-3.5 sm:p-5 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 sm:border-0 sm:border-r border-zinc-800/60 sm:rounded-none">
+          <div class="text-2xl sm:text-4xl md:text-5xl font-black text-white stat-counter mb-0.5 sm:mb-1" data-target="15" data-suffix="+">15+</div>
+          <p class="text-[11px] sm:text-sm font-bold text-amber-400 uppercase tracking-wider">Certified Coaches</p>
+          <p class="text-[10px] sm:text-[11px] text-zinc-500 mt-0.5">K11, ACE & ISSA</p>
+        </div>
+
+        <div class="p-3.5 sm:p-5 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 sm:border-0 sm:border-r border-zinc-800/60 sm:rounded-none">
+          <div class="text-2xl sm:text-4xl md:text-5xl font-black text-white stat-counter mb-0.5 sm:mb-1" data-target="1200" data-suffix="+">1200+</div>
+          <p class="text-[11px] sm:text-sm font-bold text-amber-400 uppercase tracking-wider">Raipur Members</p>
+          <p class="text-[10px] sm:text-[11px] text-zinc-500 mt-0.5">Active Community</p>
+        </div>
+
+        <div class="p-3.5 sm:p-5 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 sm:border-0 sm:rounded-none">
+          <div class="text-2xl sm:text-4xl md:text-5xl font-black text-white stat-counter mb-0.5 sm:mb-1" data-target="4.8" data-suffix="★">4.8★</div>
+          <p class="text-[11px] sm:text-sm font-bold text-amber-400 uppercase tracking-wider">Google Rating</p>
+          <p class="text-[10px] sm:text-[11px] text-zinc-500 mt-0.5">Top-Rated Gym</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. About / The Be Fit Advantage Section -->
+  <section id="about" class="py-14 sm:py-20 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+            <span class="w-6 h-[2px] bg-amber-400"></span>
+            <span>Welcome To Be Fit Raipur</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight uppercase leading-tight mb-4 sm:mb-6">
+            NOT JUST A GYM. <br>
+            <span class="text-gradient-gold">A HIGH-PERFORMANCE HABITAT.</span>
+          </h2>
+          <p class="text-zinc-400 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
+            Located conveniently on Mahadev Ghat Road at KRC Tower, Be Fit has redefined Raipur's fitness landscape. We bridge the gap between hard-core athletic training and ultra-clean luxury amenities.
+          </p>
+          <p class="text-zinc-400 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
+            Whether you are stepping into a gym for the first time, training for competitive powerlifting, or seeking sustainable fat-loss, our club offers dedicated multi-level arenas, certified mentors, and an inspiring positive vibe.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
+            <div class="p-4 rounded-xl glass-panel border border-zinc-800">
+              <div class="text-amber-400 text-lg sm:text-xl mb-1.5"><i class="fa-solid fa-medal"></i></div>
+              <h4 class="text-white font-bold text-sm mb-1">Elite Biomechanics</h4>
+              <p class="text-xs text-zinc-400 leading-relaxed">Ergonomic imported machinery engineered to prevent injury and maximize gains.</p>
+            </div>
+            <div class="p-4 rounded-xl glass-panel border border-zinc-800">
+              <div class="text-amber-400 text-lg sm:text-xl mb-1.5"><i class="fa-solid fa-heart-pulse"></i></div>
+              <h4 class="text-white font-bold text-sm mb-1">Cardio & HIIT Deck</h4>
+              <p class="text-xs text-zinc-400 leading-relaxed">Commercial treadmills, ellipticals, spin bikes, and air-rowers with telemetry.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Feature Cards Stack -->
+        <div class="relative mt-4 lg:mt-0">
+          <div class="relative z-10 rounded-2xl overflow-hidden border border-zinc-700/80 shadow-2xl bg-zinc-900 p-5 sm:p-8 glass-panel">
+            <div class="flex items-center justify-between mb-5 pb-4 border-b border-zinc-800">
+              <div>
+                <span class="text-[10px] sm:text-xs font-bold text-amber-400 tracking-wider uppercase">Club Architecture</span>
+                <h3 class="text-xl sm:text-2xl font-black text-white">Dual Floor Layout</h3>
+              </div>
+              <span class="px-2.5 py-1 bg-amber-400/10 border border-amber-400/30 text-amber-300 text-[11px] sm:text-xs font-bold rounded-full">KRC Tower</span>
+            </div>
+
+            <div class="space-y-3.5 sm:space-y-4">
+              <div class="flex items-start gap-3.5 sm:gap-4 p-3.5 sm:p-4 rounded-xl bg-zinc-950/80 border border-zinc-800/80">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-amber-400/20 text-amber-400 flex items-center justify-center font-bold text-base sm:text-lg flex-shrink-0">
+                  2F
+                </div>
+                <div>
+                  <h4 class="text-white font-bold text-xs sm:text-sm">2nd Floor: Hypertrophy & Strength Arena</h4>
+                  <p class="text-xs text-zinc-400 mt-1 leading-relaxed">Dumbbells up to 50kg, Olympic power racks, cable stations, plate-loaded leg presses, and isolated chest/back machines.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5 sm:gap-4 p-3.5 sm:p-4 rounded-xl bg-zinc-950/80 border border-zinc-800/80">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-amber-400/20 text-amber-400 flex items-center justify-center font-bold text-base sm:text-lg flex-shrink-0">
+                  3F
+                </div>
+                <div>
+                  <h4 class="text-white font-bold text-xs sm:text-sm">3rd Floor: CrossFit Turf, Cardio & Recovery</h4>
+                  <p class="text-xs text-zinc-400 mt-1 leading-relaxed">Synthetic grass sprint turf, battle ropes, plyo boxes, tyre flip zone, steam room, and executive shower rooms.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-5 border-t border-zinc-800 flex items-center justify-between">
+              <div class="flex items-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs text-zinc-400">
+                <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+                <span>Sanitized & CCTV Monitored</span>
+              </div>
+              <button class="open-pass-modal text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider flex items-center gap-1">
+                <span>Book A Tour</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. Facilities Showcase Section -->
+  <section id="facilities" class="py-14 sm:py-20 lg:py-24 bg-zinc-950/80 border-t border-zinc-800/80 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-dumbbell"></i>
+          <span>World-Class Amenities</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          CRAFTED FOR <span class="text-gradient-gold">PEAK PERFORMANCE</span>
+        </h2>
+        <p class="text-zinc-400 text-xs sm:text-base mt-3 sm:mt-4 leading-relaxed">
+          Every corner of Be Fit Raipur is designed to elevate your focus, strength, and recovery.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        
+        <!-- Facility 1 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Heavy Free-Weight Arena</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Extensive collection of calibrated Olympic barbells, bumper plates, cast iron dumbbells, and competition-spec power benches.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Level 2 • Strength Deck</span>
+        </div>
+
+        <!-- Facility 2 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-person-running"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">CrossFit & Athletic Turf</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            High-density sprint turf track for sled pushes, tire flips, battle ropes, kettlebell snatches, and functional agility drills.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Level 3 • Functional Arena</span>
+        </div>
+
+        <!-- Facility 3 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Group Training & Zumba</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Energizing group fitness sessions including high-calorie burn Zumba, HIIT bootcamps, and flexibility mobility workshops.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Studio Zone</span>
+        </div>
+
+        <!-- Facility 4 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Steam & Muscle Recovery</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Hygienic steam bath suites to relax sore muscles, detoxify the body, and speed up post-workout metabolic recovery.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Recovery Suite</span>
+        </div>
+
+        <!-- Facility 5 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Clinical Nutrition Counseling</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Personalized macro-nutrient planning tailored to Indian dietary habits, ensuring real fat-loss without starving.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Diet Consultation</span>
+        </div>
+
+        <!-- Facility 6 -->
+        <div class="glass-panel glass-card-hover p-5 sm:p-8 rounded-2xl relative overflow-hidden group">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition">
+            <i class="fa-solid fa-venus"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Women-Friendly Atmosphere</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Respectful, secure, and supportive workout environment with certified female trainers and dedicated assistance.
+          </p>
+          <span class="text-[10px] sm:text-xs font-bold text-amber-400/80 uppercase tracking-wider">Safe & Inclusive</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. Programs Section -->
+  <section id="programs" class="py-14 sm:py-20 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-16 gap-4 sm:gap-6">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+            <i class="fa-solid fa-trophy"></i>
+            <span>Signature Training Regimes</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+            GOAL-ORIENTED <span class="text-gradient-gold">PROGRAMS</span>
+          </h2>
+        </div>
+        <button class="open-pass-modal text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg uppercase tracking-wider transition self-start md:self-auto">
+          Get Program Advice
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
+        
+        <!-- Program 1 -->
+        <div class="bg-gradient-to-b from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl p-5 sm:p-8 relative flex flex-col justify-between">
+          <div>
+            <div class="text-amber-400 text-xs sm:text-sm font-black uppercase tracking-wider mb-2">Program 01</div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">Hypertrophy & Muscle Gain</h3>
+            <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">
+              Designed for serious lifters aiming for muscle volume, symmetry, and progressive overload using bio-mechanic machines and free weights.
+            </p>
+            <ul class="space-y-2 text-xs text-zinc-300 mb-6 sm:mb-8">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Split routine workout plans</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Form & posture perfection</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Protein & supplement guidance</li>
+            </ul>
+          </div>
+          <button class="open-pass-modal w-full py-2.5 rounded-lg border border-amber-400/40 text-amber-300 hover:bg-amber-400 hover:text-black font-bold text-xs uppercase tracking-wider transition">
+            Join Program
+          </button>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="bg-gradient-to-b from-zinc-900 to-zinc-950 border-2 border-amber-400/80 rounded-2xl p-5 sm:p-8 relative flex flex-col justify-between shadow-[0_0_30px_rgba(234,179,8,0.15)] mt-4 sm:mt-0">
+          <div class="absolute -top-3.5 right-4 sm:right-6 bg-amber-400 text-black text-[9px] sm:text-[10px] font-black uppercase px-2.5 sm:px-3 py-1 rounded-full tracking-wider">
+            MOST POPULAR IN RAIPUR
+          </div>
+          <div>
+            <div class="text-amber-400 text-xs sm:text-sm font-black uppercase tracking-wider mb-2">Program 02</div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">90-Day Fat Loss & Shred</h3>
+            <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">
+              A comprehensive transformation protocol pairing metabolic resistance training with calorie-controlled customized nutrition.
+            </p>
+            <ul class="space-y-2 text-xs text-zinc-300 mb-6 sm:mb-8">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Weekly body-fat monitoring</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> High-intensity metabolic burn</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Zero-crash realistic diet plan</li>
+            </ul>
+          </div>
+          <button class="open-pass-modal w-full py-2.5 rounded-lg bg-amber-400 text-black hover:bg-amber-300 font-black text-xs uppercase tracking-wider transition">
+            Start 90-Day Shred
+          </button>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="bg-gradient-to-b from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl p-5 sm:p-8 relative flex flex-col justify-between mt-4 sm:mt-0">
+          <div>
+            <div class="text-amber-400 text-xs sm:text-sm font-black uppercase tracking-wider mb-2">Program 03</div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">CrossFit & Athletic Power</h3>
+            <p class="text-zinc-400 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">
+              Functional fitness incorporating plyometrics, Olympic lifts, stamina building, and agility circuits on our custom sprint turf.
+            </p>
+            <ul class="space-y-2 text-xs text-zinc-300 mb-6 sm:mb-8">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Core strength & speed drills</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> High VO2 max cardiovascular endurance</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400 text-xs"></i> Turf sleds & tire workouts</li>
+            </ul>
+          </div>
+          <button class="open-pass-modal w-full py-2.5 rounded-lg border border-amber-400/40 text-amber-300 hover:bg-amber-400 hover:text-black font-bold text-xs uppercase tracking-wider transition">
+            Join Program
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400"></i> Turf sleds & tire workouts</li>
+            </ul>
+          </div>
+          <button class="open-pass-modal w-full py-2.5 rounded-lg border border-amber-400/40 text-amber-300 hover:bg-amber-400 hover:text-black font-bold text-xs uppercase tracking-wider transition">
+            Join Program
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. Interactive BMI & Calorie Calculator -->
+  <section id="bmi" class="py-14 sm:py-20 lg:py-24 bg-zinc-950 border-y border-zinc-800 relative overflow-hidden">
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 items-center">
+        
+        <!-- Left: Form Controls -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+            <i class="fa-solid fa-calculator"></i>
+            <span>Interactive Health Diagnostic</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight mb-3 sm:mb-4">
+            CALCULATE YOUR <span class="text-gradient-gold">FITNESS METRICS</span>
+          </h2>
+          <p class="text-zinc-400 text-xs sm:text-sm mb-6 sm:mb-8 leading-relaxed">
+            Enter your height and weight to assess your body composition category and discover your personalized training roadmap at Be Fit Raipur.
+          </p>
+
+          <div class="space-y-5 sm:space-y-6 bg-zinc-900/80 p-5 sm:p-8 rounded-2xl border border-zinc-800">
+            
+            <!-- Gender Selector -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-zinc-300 mb-2">Select Gender</label>
+              <div class="grid grid-cols-2 gap-3 sm:gap-4">
+                <label class="cursor-pointer">
+                  <input type="radio" name="bmi-gender" value="male" checked class="peer sr-only">
+                  <div class="py-2.5 sm:py-3 text-center rounded-xl border border-zinc-700 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-zinc-400 text-xs sm:text-sm font-bold transition">
+                    <i class="fa-solid fa-mars mr-1.5 sm:mr-2"></i> Male
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="bmi-gender" value="female" class="peer sr-only">
+                  <div class="py-2.5 sm:py-3 text-center rounded-xl border border-zinc-700 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-zinc-400 text-xs sm:text-sm font-bold transition">
+                    <i class="fa-solid fa-venus mr-1.5 sm:mr-2"></i> Female
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Height Slider -->
+            <div>
+              <div class="flex justify-between items-center mb-1.5 sm:mb-2">
+                <label for="bmi-height" class="text-xs font-bold uppercase tracking-wider text-zinc-300">Height</label>
+                <span id="bmi-height-val" class="text-sm sm:text-base font-extrabold text-amber-400">175 cm</span>
+              </div>
+              <input id="bmi-height" type="range" min="120" max="220" value="175" class="w-full h-2 bg-zinc-700 rounded-lg cursor-pointer">
+              <div class="flex justify-between text-[10px] sm:text-[11px] text-zinc-500 mt-1">
+                <span>120 cm</span>
+                <span>170 cm</span>
+                <span>220 cm</span>
+              </div>
+            </div>
+
+            <!-- Weight Slider -->
+            <div>
+              <div class="flex justify-between items-center mb-1.5 sm:mb-2">
+                <label for="bmi-weight" class="text-xs font-bold uppercase tracking-wider text-zinc-300">Weight</label>
+                <span id="bmi-weight-val" class="text-sm sm:text-base font-extrabold text-amber-400">72 kg</span>
+              </div>
+              <input id="bmi-weight" type="range" min="35" max="160" value="72" class="w-full h-2 bg-zinc-700 rounded-lg cursor-pointer">
+              <div class="flex justify-between text-[10px] sm:text-[11px] text-zinc-500 mt-1">
+                <span>35 kg</span>
+                <span>95 kg</span>
+                <span>160 kg</span>
+              </div>
+            </div>
+
+            <!-- Age Input -->
+            <div>
+              <label for="bmi-age" class="block text-xs font-bold uppercase tracking-wider text-zinc-300 mb-1.5 sm:mb-2">Age (Years)</label>
+              <input id="bmi-age" type="number" value="26" min="14" max="80" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-2 sm:py-2.5 text-white focus:outline-none focus:border-amber-400 text-xs sm:text-sm font-semibold">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Results Card -->
+        <div class="lg:col-span-5">
+          <div class="vip-pass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-amber-400/40 relative">
+            
+            <div class="flex justify-between items-center pb-3.5 sm:pb-4 border-b border-zinc-800">
+              <span class="text-[11px] sm:text-xs font-black tracking-widest text-amber-400 uppercase">Be Fit Analysis</span>
+              <span class="text-xs text-zinc-400">Raipur Branch</span>
+            </div>
+
+            <div class="text-center py-6 sm:py-8">
+              <p class="text-[11px] sm:text-xs text-zinc-400 font-semibold uppercase tracking-wider mb-2">Your Body Mass Index (BMI)</p>
+              <div id="bmi-score" class="text-5xl sm:text-6xl font-black text-white tracking-tight mb-2 sm:mb-3">23.5</div>
+              <div id="bmi-badge" class="inline-flex items-center px-3.5 sm:px-4 py-1.5 rounded-full text-[11px] sm:text-xs font-bold border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">
+                Optimal Fitness / Athletic
+              </div>
+            </div>
+
+            <div class="space-y-3.5 sm:space-y-4 pt-4 border-t border-zinc-800">
+              <div>
+                <span class="text-[10px] sm:text-[11px] text-zinc-400 uppercase font-bold block mb-0.5">Target Caloric Intake:</span>
+                <p id="bmi-calories" class="text-base sm:text-lg font-black text-amber-400">2250 kcal / day</p>
+              </div>
+
+              <div>
+                <span class="text-[10px] sm:text-[11px] text-zinc-400 uppercase font-bold block mb-0.5">Recommended Pathway:</span>
+                <p id="bmi-program-rec" class="text-xs sm:text-sm font-bold text-white">Be Fit CrossFit & Athletic Conditioning</p>
+              </div>
+
+              <div class="p-3 sm:p-3.5 rounded-xl bg-zinc-900/90 border border-zinc-800">
+                <p id="bmi-summary" class="text-xs text-zinc-300 leading-relaxed">
+                  Great baseline! Perfect for lean body recomposition & athletic conditioning.
+                </p>
+              </div>
+            </div>
+
+            <button class="open-pass-modal w-full mt-5 sm:mt-6 py-3 sm:py-3.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black font-black text-xs uppercase tracking-wider transition">
+              Get 1-on-1 Trainer Assessment
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. Weekly Schedule Timetable -->
+  <section id="schedule" class="py-14 sm:py-20 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-14">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-calendar-days"></i>
+          <span>Live Class Timetable</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          WEEKLY TRAINING <span class="text-gradient-gold">SCHEDULE</span>
+        </h2>
+        <p class="text-zinc-400 text-xs sm:text-sm mt-2 sm:mt-3">
+          Explore batch times for morning and evening group classes at KRC Tower.
+        </p>
+      </div>
+
+      <!-- Day selector tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-1.5 sm:gap-3 mb-8 sm:mb-10">
+        <button data-day="mon" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-amber-400 text-black font-bold text-xs uppercase tracking-wider transition">Mon</button>
+        <button data-day="tue" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Tue</button>
+        <button data-day="wed" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Wed</button>
+        <button data-day="thu" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Thu</button>
+        <button data-day="fri" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Fri</button>
+        <button data-day="sat" class="schedule-tab px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Sat</button>
+      </div>
+
+      <!-- Schedule Content List: Monday -->
+      <div id="schedule-mon" class="schedule-day-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">06:30 AM – 07:30 AM</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">CrossFit & Cardio Burn</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">Lead Coach: Rahul Verma</p>
+          </div>
+          <span class="px-2 sm:px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">High</span>
+        </div>
+
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">08:00 AM – 09:00 AM</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">Hypertrophy Chest & Triceps</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">Floor Coach: Aman Singh</p>
+          </div>
+          <span class="px-2 sm:px-2.5 py-1 bg-amber-500/20 text-amber-400 text-[10px] font-bold rounded uppercase">Medium</span>
+        </div>
+
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">06:00 PM – 07:00 PM</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">Zumba Cardio Blast</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">Certified Instructor: Priya S.</p>
+          </div>
+          <span class="px-2 sm:px-2.5 py-1 bg-emerald-500/20 text-emerald-400 text-[10px] font-bold rounded uppercase">Fun & Burn</span>
+        </div>
+
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">07:30 PM – 08:30 PM</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">Heavy Powerlifting Circuit</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">Strength Coach: Vikram Sharma</p>
+          </div>
+          <span class="px-2 sm:px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">Max</span>
+        </div>
+
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">08:45 PM – 09:30 PM</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">Core & Abdominal Blast</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">Coach: Aman Singh</p>
+          </div>
+          <span class="px-2 sm:px-2.5 py-1 bg-amber-500/20 text-amber-400 text-[10px] font-bold rounded uppercase">Medium</span>
+        </div>
+
+        <div class="p-4 sm:p-6 rounded-xl sm:rounded-2xl glass-panel border border-amber-400/30 bg-amber-400/5 flex justify-between items-center">
+          <div>
+            <span class="text-[10px] sm:text-xs font-bold text-amber-400 uppercase tracking-wider">All Day Access</span>
+            <h4 class="text-base sm:text-lg font-bold text-white mt-1">General Floor Open Gym</h4>
+            <p class="text-xs text-zinc-400 mt-0.5">5:30 AM to 10:30 PM</p>
+          </div>
+          <button class="open-pass-modal text-amber-400 hover:underline text-xs font-bold">Reserve</button>
+        </div>
+      </div>
+
+      <!-- Tuesday Schedule -->
+      <div id="schedule-tue" class="schedule-day-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">06:30 AM – 07:30 AM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Back & Biceps Thickness</h4>
+            <p class="text-xs text-zinc-400 mt-1">Lead Coach: Rahul Verma</p>
+          </div>
+          <span class="px-2.5 py-1 bg-amber-500/20 text-amber-400 text-[10px] font-bold rounded uppercase">Medium</span>
+        </div>
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">06:30 PM – 07:30 PM</span>
+            <h4 class="text-lg font-bold text-white mt-1">CrossFit Turf Endurance</h4>
+            <p class="text-xs text-zinc-400 mt-1">Coach: Vikram Sharma</p>
+          </div>
+          <span class="px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">High</span>
+        </div>
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">08:00 PM – 09:00 PM</span>
+            <h4 class="text-lg font-bold text-white mt-1">HIIT Cardio Shred</h4>
+            <p class="text-xs text-zinc-400 mt-1">Coach: Aman Singh</p>
+          </div>
+          <span class="px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">High</span>
+        </div>
+      </div>
+
+      <!-- Wednesday Schedule -->
+      <div id="schedule-wed" class="schedule-day-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">06:30 AM – 07:30 AM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Leg Day & Squat Mechanics</h4>
+            <p class="text-xs text-zinc-400 mt-1">Coach: Vikram Sharma</p>
+          </div>
+          <span class="px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">Max</span>
+        </div>
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">06:00 PM – 07:00 PM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Zumba Fitness Party</h4>
+            <p class="text-xs text-zinc-400 mt-1">Instructor: Priya S.</p>
+          </div>
+          <span class="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 text-[10px] font-bold rounded uppercase">Burn</span>
+        </div>
+      </div>
+
+      <!-- Thursday Schedule -->
+      <div id="schedule-thu" class="schedule-day-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">07:00 AM – 08:00 AM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Shoulders & Traps Power</h4>
+            <p class="text-xs text-zinc-400 mt-1">Coach: Aman Singh</p>
+          </div>
+          <span class="px-2.5 py-1 bg-amber-500/20 text-amber-400 text-[10px] font-bold rounded uppercase">Medium</span>
+        </div>
+      </div>
+
+      <!-- Friday Schedule -->
+      <div id="schedule-fri" class="schedule-day-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">06:30 AM – 07:30 AM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Full Body CrossFit Gauntlet</h4>
+            <p class="text-xs text-zinc-400 mt-1">Coach: Rahul Verma</p>
+          </div>
+          <span class="px-2.5 py-1 bg-red-500/20 text-red-400 text-[10px] font-bold rounded uppercase">Max</span>
+        </div>
+      </div>
+
+      <!-- Saturday Schedule -->
+      <div id="schedule-sat" class="schedule-day-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl glass-panel border border-zinc-800 flex justify-between items-center">
+          <div>
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">08:00 AM – 09:30 AM</span>
+            <h4 class="text-lg font-bold text-white mt-1">Weekend Warrior Bootcamp</h4>
+            <p class="text-xs text-zinc-400 mt-1">Full Coaching Team</p>
+          </div>
+          <span class="px-2.5 py-1 bg-amber-400 text-black text-[10px] font-bold rounded uppercase">Special</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. Memberships / Pricing Plans -->
+  <section id="plans" class="py-14 sm:py-20 lg:py-24 bg-zinc-950 border-t border-zinc-800 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-credit-card"></i>
+          <span>Transparent Packages</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          INVEST IN YOUR <span class="text-gradient-gold">HEALTH & PHYSIQUE</span>
+        </h2>
+        <p class="text-zinc-400 text-xs sm:text-sm mt-2 sm:mt-3">
+          Special inaugural packages for Raipur fitness enthusiasts. No hidden admission surprises.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 sm:gap-8 items-stretch">
+        
+        <!-- Plan 1: Starter -->
+        <div class="glass-panel p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-zinc-800 flex flex-col justify-between">
+          <div>
+            <div class="text-[10px] sm:text-xs font-black uppercase tracking-widest text-zinc-400 mb-1.5 sm:mb-2">Flexible Pass</div>
+            <h3 class="text-xl sm:text-2xl font-black text-white mb-1">1 Month Starter</h3>
+            <p class="text-xs text-zinc-400 mb-4 sm:mb-6">Ideal for individuals testing the waters or short-term training.</p>
+            
+            <div class="mb-4 sm:mb-6">
+              <span class="text-3xl sm:text-4xl font-black text-white">₹1,999</span>
+              <span class="text-xs text-zinc-400">/ month</span>
+            </div>
+
+            <ul class="space-y-2.5 sm:space-y-3 text-xs text-zinc-300 pb-6 sm:pb-8 border-b border-zinc-800">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Full access to Level 2 & Level 3</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> General Trainer on-floor support</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Locker & shower bay access</li>
+              <li class="flex items-center gap-2 text-zinc-500"><i class="fa-solid fa-circle-xmark text-xs"></i> Personal Diet Consultation</li>
+              <li class="flex items-center gap-2 text-zinc-500"><i class="fa-solid fa-circle-xmark text-xs"></i> Steam bath access</li>
+            </ul>
+          </div>
+
+          <button class="open-pass-modal w-full mt-6 sm:mt-8 py-3 rounded-xl border border-zinc-700 hover:border-amber-400 text-white font-bold text-xs uppercase tracking-wider transition">
+            Choose Starter
+          </button>
+        </div>
+
+        <!-- Plan 2: Annual VIP Elite (Highlight) -->
+        <div class="relative bg-gradient-to-b from-zinc-900 via-zinc-900 to-black p-5 sm:p-8 rounded-2xl sm:rounded-3xl border-2 border-amber-400 shadow-[0_0_40px_rgba(234,179,8,0.2)] flex flex-col justify-between transform lg:-translate-y-4 mt-3 sm:mt-0">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-amber-400 to-amber-500 text-black text-[10px] sm:text-xs font-black uppercase px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full tracking-wider shadow-lg whitespace-nowrap">
+            ⭐ BEST VALUE • VIP ELITE
+          </div>
+
+          <div>
+            <div class="text-[10px] sm:text-xs font-black uppercase tracking-widest text-amber-400 mb-1.5 sm:mb-2 mt-2">Annual Transformation</div>
+            <h3 class="text-2xl sm:text-3xl font-black text-white mb-1">12 Months Elite VIP</h3>
+            <p class="text-xs text-zinc-400 mb-4 sm:mb-6">The ultimate committed program for total physique remodeling.</p>
+            
+            <div class="mb-4 sm:mb-6">
+              <span class="text-4xl sm:text-5xl font-black text-amber-400">₹12,999</span>
+              <span class="text-xs text-zinc-400">/ year (Only ₹1,083/mo)</span>
+            </div>
+
+            <ul class="space-y-2.5 sm:space-y-3.5 text-xs text-zinc-200 pb-6 sm:pb-8 border-b border-zinc-800">
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Unlimited 365-day access to all floors</li>
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Free 3x 1-on-1 Personal Training sessions</li>
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Complete Custom Diet & Macro Blueprint</li>
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Unlimited Steam Bath recovery sessions</li>
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Free Official Be Fit Gym Kit & Shaker</li>
+              <li class="flex items-center gap-2 font-medium"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Free 30-day membership pause option</li>
+            </ul>
+          </div>
+
+          <button class="open-pass-modal btn-glow-gold w-full mt-6 sm:mt-8 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 text-black font-black text-xs uppercase tracking-wider transition">
+            Claim Annual VIP Offer
+          </button>
+        </div>
+
+        <!-- Plan 3: Quarterly Pro -->
+        <div class="glass-panel p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-zinc-800 flex flex-col justify-between mt-3 sm:mt-0">
+          <div>
+            <div class="text-[10px] sm:text-xs font-black uppercase tracking-widest text-zinc-400 mb-1.5 sm:mb-2">Steady Progress</div>
+            <h3 class="text-xl sm:text-2xl font-black text-white mb-1">3 Months Pro</h3>
+            <p class="text-xs text-zinc-400 mb-4 sm:mb-6">Perfect duration to witness clear, noticeable body transformation.</p>
+            
+            <div class="mb-4 sm:mb-6">
+              <span class="text-3xl sm:text-4xl font-black text-white">₹4,999</span>
+              <span class="text-xs text-zinc-400">/ 3 months</span>
+            </div>
+
+            <ul class="space-y-2.5 sm:space-y-3 text-xs text-zinc-300 pb-6 sm:pb-8 border-b border-zinc-800">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Unlimited access to all workout floors</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Dedicated floor trainers guidance</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Locker & shower bay access</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-xs"></i> Basic Body Recomposition Diet Chart</li>
+              <li class="flex items-center gap-2 text-zinc-500"><i class="fa-solid fa-circle-xmark text-xs"></i> Free Gym Kit</li>
+            </ul>
+          </div>
+
+          <button class="open-pass-modal w-full mt-6 sm:mt-8 py-3 rounded-xl border border-zinc-700 hover:border-amber-400 text-white font-bold text-xs uppercase tracking-wider transition">
+            Choose 3 Months
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. Interactive Gallery Section -->
+  <section class="py-14 sm:py-20 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-images"></i>
+          <span>Inside Look</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          THE <span class="text-gradient-gold">BE FIT</span> ARENA
+        </h2>
+        <p class="text-zinc-400 text-xs sm:text-sm mt-2 sm:mt-3">
+          A glimpse into the high-octane energy at KRC Tower, Raipur.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 mb-8 sm:mb-10">
+        <button data-filter="all" class="gallery-filter-btn px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl bg-amber-400 text-black text-xs font-bold uppercase tracking-wider transition">All Areas</button>
+        <button data-filter="strength" class="gallery-filter-btn px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Strength</button>
+        <button data-filter="crossfit" class="gallery-filter-btn px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">CrossFit Turf</button>
+        <button data-filter="cardio" class="gallery-filter-btn px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl bg-zinc-900 text-zinc-300 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition">Cardio Deck</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        
+        <div data-category="strength" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80" alt="Be Fit Raipur Strength Arena" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Level 2</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">Heavy Dumbbell & Bench Row</h4>
+          </div>
+        </div>
+
+        <div data-category="crossfit" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80" alt="Be Fit Raipur CrossFit Arena" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Level 3</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">CrossFit Sprint Turf & Sled Track</h4>
+          </div>
+        </div>
+
+        <div data-category="cardio" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=900&q=80" alt="Be Fit Raipur Cardio Deck" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Level 3</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">High-Tech Treadmills & Rowers</h4>
+          </div>
+        </div>
+
+        <div data-category="strength" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=900&q=80" alt="Power Racks Be Fit Raipur" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Level 2</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">Olympic Powerlifting Cages</h4>
+          </div>
+        </div>
+
+        <div data-category="crossfit" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=900&q=80" alt="Battle Ropes Be Fit Raipur" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Level 3</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">Battle Ropes & Plyo Platforms</h4>
+          </div>
+        </div>
+
+        <div data-category="cardio" class="gallery-item group relative h-60 sm:h-72 rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="Personal Training Be Fit Raipur" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+          <div class="absolute bottom-4 left-4 right-4">
+            <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Personal Studio</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">1-on-1 Transformation Pod</h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 12. Real Reviews from Raipur Residents -->
+  <section class="py-14 sm:py-20 lg:py-24 bg-zinc-950 border-t border-zinc-800 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-star"></i>
+          <span>Member Experiences</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          TESTED & APPROVED IN <span class="text-gradient-gold">RAIPUR</span>
+        </h2>
+        <p class="text-zinc-400 text-xs sm:text-sm mt-2 sm:mt-3">
+          Join over 1,200+ Raipur locals transforming their bodies at Be Fit Gym.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
+        
+        <div class="glass-panel p-5 sm:p-8 rounded-2xl border border-zinc-800 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-xs sm:text-sm mb-3 sm:mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-zinc-300 text-xs sm:text-sm italic leading-relaxed mb-4 sm:mb-6">
+              "Best gym in Raipur by far! The equipment on both 2nd and 3rd floors is top notch. The CrossFit turf on the 3rd floor is huge. Lost 8 kgs in 3 months thanks to the trainers here!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3.5 sm:pt-4 border-t border-zinc-800">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-amber-400 text-black font-bold flex items-center justify-center text-xs sm:text-sm flex-shrink-0">
+              AK
+            </div>
+            <div>
+              <h5 class="text-white font-bold text-xs sm:text-sm">Abhishek K.</h5>
+              <span class="text-[10px] sm:text-[11px] text-zinc-500">Sunder Nagar, Raipur • Member</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-panel p-5 sm:p-8 rounded-2xl border border-zinc-800 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-xs sm:text-sm mb-3 sm:mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-zinc-300 text-xs sm:text-sm italic leading-relaxed mb-4 sm:mb-6">
+              "Super safe and welcoming environment for women. The trainers make sure your form is 100% correct, and the Zumba sessions in the evening are packed with pure energy!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3.5 sm:pt-4 border-t border-zinc-800">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-amber-400 text-black font-bold flex items-center justify-center text-xs sm:text-sm flex-shrink-0">
+              SS
+            </div>
+            <div>
+              <h5 class="text-white font-bold text-xs sm:text-sm">Shreya Sharma</h5>
+              <span class="text-[10px] sm:text-[11px] text-zinc-500">Mahadev Ghat Rd, Raipur • Member</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-panel p-5 sm:p-8 rounded-2xl border border-zinc-800 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-xs sm:text-sm mb-3 sm:mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-zinc-300 text-xs sm:text-sm italic leading-relaxed mb-4 sm:mb-6">
+              "Mahadev Ghat road area me is level ka gym milna mushkil hai. Ample parking space at KRC Tower, air conditioning works great, and steam recovery keeps you fresh."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3.5 sm:pt-4 border-t border-zinc-800">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-amber-400 text-black font-bold flex items-center justify-center text-xs sm:text-sm flex-shrink-0">
+              RP
+            </div>
+            <div>
+              <h5 class="text-white font-bold text-xs sm:text-sm">Ravi Prakash</h5>
+              <span class="text-[10px] sm:text-[11px] text-zinc-500">Changurabhata, Raipur • Powerlifter</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 13. Location, Timings & Interactive Contact Hub -->
+  <section id="location" class="py-14 sm:py-20 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 items-center">
+        
+        <!-- Left: Club Details -->
+        <div class="lg:col-span-5 space-y-4 sm:space-y-6">
+          <div>
+            <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <span>Visit The Club</span>
+            </div>
+            <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+              LOCATION & <span class="text-gradient-gold">HOURS</span>
+            </h2>
+            <p class="text-zinc-400 text-xs sm:text-sm mt-2 sm:mt-3 leading-relaxed">
+              Strategically located in the heart of Changurabhata / Mahadev Ghat Road, accessible easily from Sunder Nagar, Raipura, and Ring Road.
+            </p>
+          </div>
+
+          <div class="space-y-3 sm:space-y-4">
+            
+            <div class="p-4 sm:p-5 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex items-start gap-3.5 sm:gap-4">
+              <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-400 flex items-center justify-center flex-shrink-0 text-sm sm:text-base">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold text-xs sm:text-sm">Official Address</h4>
+                <p class="text-xs text-zinc-400 mt-0.5 sm:mt-1 leading-relaxed">2nd & 3rd Floor, KRC Tower, Mahadev Ghat Road, Changurabhata, Raipur, Chhattisgarh – 492013</p>
+              </div>
+            </div>
+
+            <div class="p-4 sm:p-5 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex items-start gap-3.5 sm:gap-4">
+              <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-400 flex items-center justify-center flex-shrink-0 text-sm sm:text-base">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold text-xs sm:text-sm">Operating Timings</h4>
+                <p class="text-xs text-zinc-400 mt-0.5 sm:mt-1"><strong class="text-zinc-200">Monday – Saturday:</strong> 5:30 AM – 10:30 PM</p>
+                <p class="text-xs text-zinc-400 mt-0.5"><strong class="text-zinc-200">Sunday:</strong> 7:00 AM – 12:00 PM</p>
+              </div>
+            </div>
+
+            <div class="p-4 sm:p-5 rounded-xl sm:rounded-2xl glass-panel border border-zinc-800 flex items-start gap-3.5 sm:gap-4">
+              <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-400 flex items-center justify-center flex-shrink-0 text-sm sm:text-base">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold text-xs sm:text-sm">Helpline & Front Desk</h4>
+                <p class="text-xs text-zinc-400 mt-0.5 sm:mt-1">+91 78288 88438</p>
+                <div class="mt-2 flex gap-3">
+                  <a href="tel:+917828888438" class="text-amber-400 hover:underline text-xs font-bold">Call Now</a>
+                  <span class="text-zinc-700">•</span>
+                  <a href="https://wa.me/917828888438?text=Hello%20Be%20Fit%20Raipur!%20I%20am%20interested%20in%20gym%20membership." target="_blank" class="text-emerald-400 hover:underline text-xs font-bold">WhatsApp Direct</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Map Embed & Directions -->
+        <div class="lg:col-span-7">
+          <div class="rounded-2xl sm:rounded-3xl overflow-hidden border border-zinc-800 shadow-2xl bg-zinc-900 relative">
+            
+            <!-- Real Google Map Embed for Raipur / Mahadev Ghat Road -->
+            <iframe 
+              title="Be Fit Raipur Location Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.895392095034!2d81.60621437604172!3d21.236006980464016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dda565a4e5f7%3A0x6b7724285e6dc665!2sMahadev%20Ghat%20Rd%2C%20Raipur%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              class="w-full h-[280px] sm:h-[420px] filter grayscale contrast-125 opacity-90 hover:filter-none transition duration-500" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="p-4 sm:p-6 bg-zinc-950 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 border-t border-zinc-800">
+              <div>
+                <span class="text-[11px] sm:text-xs text-zinc-400 block">Looking for landmark?</span>
+                <span class="text-xs sm:text-sm font-bold text-white">Opposite Mahadev Ghat Road Main Junction, KRC Tower</span>
+              </div>
+              <a href="https://maps.google.com/?q=Be+Fit+Gym+KRC+Tower+Mahadev+Ghat+Road+Raipur" target="_blank" class="w-full sm:w-auto text-center px-4 sm:px-5 py-2.5 rounded-xl bg-amber-400 text-black text-xs font-bold uppercase tracking-wider hover:bg-amber-300 transition flex items-center justify-center gap-2">
+                <i class="fa-solid fa-diamond-turn-right"></i>
+                <span>Get Directions</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 14. Frequently Asked Questions (FAQ) -->
+  <section class="py-14 sm:py-20 lg:py-24 bg-zinc-950 border-t border-zinc-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-8 sm:mb-14">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>Clear Answers</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
+          FREQUENTLY ASKED <span class="text-gradient-gold">QUESTIONS</span>
+        </h2>
+      </div>
+
+      <div class="space-y-3 sm:space-y-4">
+        
+        <div class="rounded-xl glass-panel border border-zinc-800 overflow-hidden">
+          <button class="faq-toggle w-full px-4 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center text-white font-bold text-xs sm:text-sm md:text-base gap-3">
+            <span>Can I try out the gym before taking a membership?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-amber-400 text-xs transition duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="faq-answer px-4 sm:px-6 pb-4 sm:pb-5 text-zinc-400 text-xs sm:text-sm hidden leading-relaxed">
+            Yes, absolutely! We offer a complimentary 1-Day VIP Pass for all Raipur residents. Simply click the "Claim VIP Pass" button on this website to generate your pass, and show it at the front desk at KRC Tower.
+          </div>
+        </div>
+
+        <div class="rounded-xl glass-panel border border-zinc-800 overflow-hidden">
+          <button class="faq-toggle w-full px-4 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center text-white font-bold text-xs sm:text-sm md:text-base gap-3">
+            <span>Are personal trainers available for beginners?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-amber-400 text-xs transition duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="faq-answer px-4 sm:px-6 pb-4 sm:pb-5 text-zinc-400 text-xs sm:text-sm hidden leading-relaxed">
+            Yes! We have dedicated on-floor certified coaches who guide all members through correct machine usage and warmups. If you want faster results, customized diet tracking, and 1-on-1 dedicated attention, you can also opt for our Personal Training (PT) packages.
+          </div>
+        </div>
+
+        <div class="rounded-xl glass-panel border border-zinc-800 overflow-hidden">
+          <button class="faq-toggle w-full px-4 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center text-white font-bold text-xs sm:text-sm md:text-base gap-3">
+            <span>What are the timings of the gym?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-amber-400 text-xs transition duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="faq-answer px-4 sm:px-6 pb-4 sm:pb-5 text-zinc-400 text-xs sm:text-sm hidden leading-relaxed">
+            We are open Monday to Saturday from early morning 5:30 AM to late night 10:30 PM without noon closing, so you can work out according to your office and personal schedule. Sunday timings are 7:00 AM to 12:00 PM.
+          </div>
+        </div>
+
+        <div class="rounded-xl glass-panel border border-zinc-800 overflow-hidden">
+          <button class="faq-toggle w-full px-4 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center text-white font-bold text-xs sm:text-sm md:text-base gap-3">
+            <span>Is parking available at KRC Tower?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-amber-400 text-xs transition duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="faq-answer px-4 sm:px-6 pb-4 sm:pb-5 text-zinc-400 text-xs sm:text-sm hidden leading-relaxed">
+            Yes, KRC Tower has dedicated two-wheeler and four-wheeler parking spaces with security monitoring for all Be Fit gym members.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 15. VIP Free Pass Generator Modal -->
+  <div id="pass-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-3 sm:p-4">
+    <div class="max-w-lg w-full bg-zinc-950 border border-amber-400/50 rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl relative overflow-hidden max-h-[90vh] overflow-y-auto">
+      
+      <!-- Close button -->
+      <button id="close-pass-modal" aria-label="Close pass modal" class="absolute top-4 right-4 sm:top-5 sm:right-5 text-zinc-400 hover:text-white text-lg sm:text-xl">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Initial Pass Form -->
+      <form id="vip-pass-form" class="space-y-3.5 sm:space-y-4">
+        <div class="text-center mb-4 sm:mb-6 pr-6 pl-2">
+          <div class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-1">
+            <i class="fa-solid fa-ticket"></i>
+            <span>Be Fit Raipur VIP Pass</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-white uppercase">Claim 1-Day Free Access</h3>
+          <p class="text-xs text-zinc-400 mt-1">Experience 5000+ sq ft of luxury fitness at KRC Tower.</p>
+        </div>
+
+        <div>
+          <label for="pass-name" class="block text-xs font-bold uppercase text-zinc-300 mb-1">Full Name</label>
+          <input id="pass-name" type="text" required placeholder="e.g. Rahul Sharma" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-2 sm:py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-amber-400">
+        </div>
+
+        <div>
+          <label for="pass-phone" class="block text-xs font-bold uppercase text-zinc-300 mb-1">WhatsApp Number</label>
+          <input id="pass-phone" type="tel" required placeholder="e.g. 9876543210" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-2 sm:py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-amber-400">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+          <div>
+            <label for="pass-slot" class="block text-xs font-bold uppercase text-zinc-300 mb-1">Time Slot</label>
+            <select id="pass-slot" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-3 py-2 sm:py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-amber-400">
+              <option value="Morning (6 AM - 9 AM)">Morning (6 AM - 9 AM)</option>
+              <option value="Afternoon (12 PM - 4 PM)">Afternoon (12 PM - 4 PM)</option>
+              <option value="Evening (5 PM - 9 PM)">Evening (5 PM - 9 PM)</option>
+            </select>
+          </div>
+          <div>
+            <label for="pass-goal" class="block text-xs font-bold uppercase text-zinc-300 mb-1">Fitness Goal</label>
+            <select id="pass-goal" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-3 py-2 sm:py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-amber-400">
+              <option value="Weight & Fat Loss">Weight / Fat Loss</option>
+              <option value="Muscle Building">Muscle Building</option>
+              <option value="CrossFit & Stamina">CrossFit & Stamina</option>
+              <option value="General Health">General Health</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="text-[10px] sm:text-[11px] text-zinc-500 text-center">
+          *Valid for Raipur residents only. One pass per individual.
+        </p>
+
+        <button type="submit" class="w-full py-3 sm:py-3.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-black font-black text-xs uppercase tracking-wider transition">
+          Generate Instant VIP Pass
+        </button>
+      </form>
+
+      <!-- Resulting VIP Card Preview (Rendered dynamically) -->
+      <div id="pass-card-preview" class="hidden">
+        <div class="vip-pass-card rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2 border-amber-400 mb-5 sm:mb-6 text-zinc-100">
+          
+          <div class="flex justify-between items-start mb-3 sm:mb-4 pb-2.5 sm:pb-3 border-b border-zinc-800">
+            <div>
+              <span class="text-[9px] sm:text-[10px] font-black uppercase text-amber-400 tracking-widest block">VIP COMPLIMENTARY PASS</span>
+              <h4 class="text-lg sm:text-xl font-black text-white">BE FIT RAIPUR</h4>
+            </div>
+            <span class="text-[10px] sm:text-xs bg-amber-400 text-black font-extrabold px-2 py-0.5 sm:px-2.5 sm:py-1 rounded">1-DAY TRIAL</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2.5 sm:gap-3 text-xs mb-3 sm:mb-4">
+            <div>
+              <span class="text-[9px] sm:text-[10px] text-zinc-400 uppercase block">Guest Name:</span>
+              <strong id="card-member-name" class="text-white text-xs sm:text-sm">Rahul Sharma</strong>
+            </div>
+            <div>
+              <span class="text-[9px] sm:text-[10px] text-zinc-400 uppercase block">Pass ID:</span>
+              <strong id="card-pass-id" class="text-amber-400 text-xs sm:text-sm font-mono">BFR-VIP-4821</strong>
+            </div>
+            <div>
+              <span class="text-[9px] sm:text-[10px] text-zinc-400 uppercase block">Goal:</span>
+              <span id="card-goal" class="text-zinc-200 text-[11px] sm:text-xs">Weight & Fat Loss</span>
+            </div>
+            <div>
+              <span class="text-[9px] sm:text-[10px] text-zinc-400 uppercase block">Slot:</span>
+              <span id="card-slot" class="text-zinc-200 text-[11px] sm:text-xs">Evening (5 PM - 9 PM)</span>
+            </div>
+          </div>
+
+          <div class="pt-2.5 sm:pt-3 border-t border-zinc-800 flex justify-between items-center text-[10px] sm:text-xs">
+            <div>
+              <span class="text-[8px] sm:text-[9px] text-zinc-500 uppercase block">Location:</span>
+              <span class="text-[10px] text-zinc-300">KRC Tower, Mahadev Ghat Rd</span>
+            </div>
+            <div class="text-right">
+              <span class="text-[8px] sm:text-[9px] text-zinc-500 uppercase block">Issued On:</span>
+              <span id="card-date" class="text-[10px] text-zinc-300">Today</span>
+            </div>
+          </div>
+
+          <div class="mt-3 sm:mt-4 barcode-lines rounded"></div>
+        </div>
+
+        <a id="whatsapp-confirm-pass" href="#" target="_blank" class="w-full py-3 sm:py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-black text-xs uppercase tracking-wider transition flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>Confirm on WhatsApp With Club</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 16. Floating Direct WhatsApp CTA Button (100% Mathematically Centered) -->
+  <div class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-40 flex items-center group">
+    <span class="mr-3 pointer-events-none opacity-0 group-hover:opacity-100 transition-all duration-300 bg-zinc-900/95 text-white border border-zinc-700/80 text-xs font-bold px-3 py-1.5 rounded-xl shadow-2xl backdrop-blur-md whitespace-nowrap hidden sm:inline-block">
+      Chat With Raipur Team
+    </span>
+    <a href="https://wa.me/917828888438?text=Hello%20Be%20Fit%20Raipur!%20I%20am%20interested%20in%20gym%20membership%20packages%20and%201-day%20trial." 
+       target="_blank" 
+       aria-label="Chat on WhatsApp with Be Fit Raipur"
+       class="whatsapp-float-btn relative">
+      <span class="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-25 pointer-events-none"></span>
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- 17. Footer -->
+  <footer class="bg-black border-t border-zinc-900 py-16 text-zinc-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-amber-400 text-black flex items-center justify-center font-black">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <span class="text-xl font-black text-white">BE FIT RAIPUR</span>
+          </div>
+          <p class="text-zinc-500 text-xs leading-relaxed">
+            Raipur's premier multi-level fitness club engineered for real physical transformations. Biomechanical equipment, certified mentorship, and an electric community.
+          </p>
+          <div class="flex gap-4 text-zinc-400">
+            <a href="#" class="hover:text-amber-400"><i class="fa-brands fa-instagram text-lg"></i></a>
+            <a href="#" class="hover:text-amber-400"><i class="fa-brands fa-facebook text-lg"></i></a>
+            <a href="#" class="hover:text-amber-400"><i class="fa-brands fa-whatsapp text-lg"></i></a>
+            <a href="#" class="hover:text-amber-400"><i class="fa-solid fa-location-dot text-lg"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold uppercase tracking-wider mb-4">Quick Links</h5>
+          <ul class="space-y-2">
+            <li><a href="#about" class="hover:text-amber-400">About Be Fit</a></li>
+            <li><a href="#facilities" class="hover:text-amber-400">Facilities Tour</a></li>
+            <li><a href="#programs" class="hover:text-amber-400">Workout Programs</a></li>
+            <li><a href="#bmi" class="hover:text-amber-400">BMI Diagnostic Tool</a></li>
+            <li><a href="#plans" class="hover:text-amber-400">Membership Fees</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold uppercase tracking-wider mb-4">Specialties</h5>
+          <ul class="space-y-2">
+            <li><span>• CrossFit & Athletic Turf</span></li>
+            <li><span>• Heavy Hypertrophy Strength</span></li>
+            <li><span>• 90-Day Fat Loss Protocol</span></li>
+            <li><span>• Clinical Diet Consultation</span></li>
+            <li><span>• Steam Bath Recovery Lounge</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold uppercase tracking-wider mb-4">Club Address</h5>
+          <p class="text-zinc-400 leading-relaxed mb-3">
+            2nd & 3rd Floor, KRC Tower,<br>
+            Mahadev Ghat Road, Changurabhata,<br>
+            Raipur, Chhattisgarh 492013
+          </p>
+          <p class="text-white font-bold">Helpline: +91 78288 88438</p>
+          <p class="text-zinc-500 text-[11px] mt-1">Open: Mon-Sat 5:30 AM - 10:30 PM</p>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-600">
+        <p>© 2026 BE FIT FITNESS CENTER RAIPUR. All Rights Reserved.</p>
+        <p>Concept & Digital Experience crafted for Be Fit Raipur.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
